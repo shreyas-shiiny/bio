@@ -5,6 +5,11 @@ import pot2 from "../Components/Images/WhatsApp Image 2024-01-30 at 6.19.27 PM.j
 import pot3 from "../Components/Images/WhatsApp Image 2024-01-30 at 6.19.27 PM (1).jpeg";
 import pot4 from "../Components/Images/WhatsApp Image 2024-01-30 at 6.39.45 PM.jpeg";
 import pot5 from "../Components/Images/WhatsApp Image 2024-01-30 at 7.24.48 PM.jpeg";
+import pot6 from "../Components/Images/WhatsApp Image 2024-01-31 at 6.24.37 PM.jpeg";
+import pot7 from "../Components/Images/WhatsApp Image 2024-01-31 at 6.24.56 PM.jpeg";
+import pot8 from "../Components/Images/WhatsApp Image 2024-01-31 at 6.24.37 PM (2).jpeg";
+import pot9 from "../Components/Images/WhatsApp Image 2024-01-31 at 6.30.32 PM.jpeg";
+
 
 const Hobbies = () => {
   const [showPoetryOne, setShowPoetryOne] = useState(false);
@@ -12,6 +17,11 @@ const Hobbies = () => {
   const [showPoetryThree, setShowPoetryThree] = useState(false);
   const [showPoetryFour, setShowPoetryFour] = useState(false);
   const [showPoetryFive, setShowPoetryFive] = useState(false);
+  const [showPoetrySix, setShowPoetrySix] = useState(false);
+  const [showPoetrySeven, setShowPoetrySeven] = useState(false);
+  const [showPoetryEight, setShowPoetryEight] = useState(false);
+  const [showPoetryNine, setShowPoetryNine] = useState(false);
+
 
   const handleViewPhotosClick = (field) => {
     switch (field) {
@@ -30,6 +40,18 @@ const Hobbies = () => {
       case "poetryfive":
         setShowPoetryFive(!showPoetryFive);
         break;
+      case "poetrysix":
+        setShowPoetrySix(!showPoetrySix);
+        break;
+      case "poetryseven":
+        setShowPoetrySeven(!showPoetrySeven);
+        break;
+      case "poetryeight":
+        setShowPoetryEight(!showPoetryEight);
+        break;
+        case "poetrynine":
+          setShowPoetryNine(!showPoetryNine);
+          break;
       default:
     }
   };
@@ -204,6 +226,89 @@ const Hobbies = () => {
           {showPoetryFive ? "Close " : "Read more"}
         </button>
       </div>
+
+      <div>
+        <h3>ಶಾಯರಿ 6</h3>
+        {showPoetrySix && (
+          <div>
+            <h3>hiiii</h3>
+            <Col md={5} style={{ paddingBottom: 20 }}>
+              <img
+                src={pot6}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "450px" }}
+              />
+            </Col>
+          </div>
+        )}
+        <button onClick={() => handleViewPhotosClick("poetrysix")}>
+          {showPoetrySix ? "Close " : "Read more"}
+        </button>
+      </div>
+
+      <div>
+        <h3>ಶಾಯರಿ 7</h3>
+        {showPoetrySeven && (
+          <div>
+            <h3>hiiii</h3>
+            <Col md={5} style={{ paddingBottom: 20 }}>
+              <img
+                src={pot7}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "450px" }}
+              />
+            </Col>
+          </div>
+        )}
+        <button onClick={() => handleViewPhotosClick("poetryseven")}>
+          {showPoetrySeven ? "Close " : "Read more"}
+        </button>
+      </div>
+
+      <div>
+        <h3>ಶಾಯರಿ 8</h3>
+        {showPoetryEight && (
+          <div>
+            <h3>hiiii</h3>
+            <Col md={5} style={{ paddingBottom: 20 }}>
+              <img
+                src={pot8}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "450px" }}
+              />
+            </Col>
+          </div>
+        )}
+        <button onClick={() => handleViewPhotosClick("poetryeight")}>
+          {showPoetryEight ? "Close " : "Read more"}
+        </button>
+      </div>
+
+
+
+      <div>
+        <h3>ಶಾಯರಿ 9</h3>
+        {showPoetryNine && (
+          <div>
+            <h3>hiiii</h3>
+            <Col md={5} style={{ paddingBottom: 20 }}>
+              <img
+                src={pot9}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "450px" }}
+              />
+            </Col>
+          </div>
+        )}
+        <button onClick={() => handleViewPhotosClick("poetrynine")}>
+          {showPoetryNine ? "Close " : "Read more"}
+        </button>
+      </div>
+
     </div>
   );
 };
