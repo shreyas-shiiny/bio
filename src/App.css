@@ -56,3 +56,9 @@ main {
   text-align: center;
   color: rgb(44, 31, 14);
 }
+
+@media only screen and (max-width: 600px) {
+  .heading, .heading-name {
+    padding-left: 0 !important;
+  }
+}
