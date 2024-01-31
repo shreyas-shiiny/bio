@@ -11,7 +11,7 @@ const PersonalDetailsPage = () => {
       <h2> Details </h2>
       <p>Name:- Shreyas B M(ಶ್ರೇಯಸ್)</p>
       <p>DOB : 09/01/1997 ( Thursday )</p>
-      <p>Timing : 10:53 pm night</p>
+      <p>Timing : 10:53 pm (night)</p>
       <p>Place of Birth : Bangalore </p>
       <p>Education : B.E, M.Tech</p>
       <p>Religion : Hindu </p>
