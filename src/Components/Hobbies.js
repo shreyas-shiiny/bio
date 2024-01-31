@@ -6,30 +6,29 @@ import pot3 from "../Components/Images/WhatsApp Image 2024-01-30 at 6.19.27 PM (
 import pot4 from "../Components/Images/WhatsApp Image 2024-01-30 at 6.39.45 PM.jpeg";
 import pot5 from "../Components/Images/WhatsApp Image 2024-01-30 at 7.24.48 PM.jpeg";
 
-
 const Hobbies = () => {
-  const [showPoertyOne, setShowPoertyOne] = useState(false);
-  const [showPoertyTwo, setShowPoertyTwo] = useState(false);
-  const [showPoertyThree, setShowPoertyThree] = useState(false);
-  const [showPoertyFour, setShowPoertyFour] = useState(false);
-  const [showPoertyFive, setShowPoertyFive] = useState(false);
+  const [showPoetryOne, setShowPoetryOne] = useState(false);
+  const [showPoetryTwo, setShowPoetryTwo] = useState(false);
+  const [showPoetryThree, setShowPoetryThree] = useState(false);
+  const [showPoetryFour, setShowPoetryFour] = useState(false);
+  const [showPoetryFive, setShowPoetryFive] = useState(false);
 
   const handleViewPhotosClick = (field) => {
     switch (field) {
-      case "poertyone":
-        setShowPoertyOne(!showPoertyOne);
+      case "poetryone":
+        setShowPoetryOne(!showPoetryOne);
         break;
-      case "poertytwo":
-        setShowPoertyTwo(!showPoertyTwo);
+      case "poetrytwo":
+        setShowPoetryTwo(!showPoetryTwo);
         break;
-      case "poertythree":
-        setShowPoertyThree(!showPoertyThree);
+      case "poetrythree":
+        setShowPoetryThree(!showPoetryThree);
         break;
-      case "poertyfour":
-        setShowPoertyFour(!showPoertyFour);
+      case "poetryfour":
+        setShowPoetryFour(!showPoetryFour);
         break;
-      case "poertyfive":
-        setShowPoertyFive(!showPoertyFive);
+      case "poetryfive":
+        setShowPoetryFive(!showPoetryFive);
         break;
       default:
     }
@@ -37,11 +36,11 @@ const Hobbies = () => {
 
   return (
     <div>
-      <h1>I have an hidden talent of writting ಕನ್ನಡ ಶಾಯರಿ</h1>
+      <h1>I have a hidden talent for writing ಕನ್ನಡ ಶಾಯರಿ</h1>
 
       <div>
         <h3>ಶಾಯರಿ 1</h3>
-        {showPoertyOne && (
+        {showPoetryOne && (
           <div>
             <h3>
               ಸಾಧಕನಿಗೆ ಎಲ್ಲರೂ ಒಡೆಯುವರು ಚಪ್ಪಾಳೆಗಳು <br />
@@ -61,26 +60,29 @@ const Hobbies = () => {
               ನೋಡುವುದಕ್ಕೆ ನಿಮ್ಮ ನಗುವಿನ ಚಿಲಿಪಿಲಿಗಳು
             </h3>
             <Col md={5} style={{ paddingBottom: 20 }}>
-        <img
-          src={pot1}
-          alt="home pic"
-          className="img-fluid"
-          style={{ maxHeight: "450px",
-          position: 'absolute',
-          top: 230,
-          width:'auto',
-          right: 10, }}
-        />
-      </Col>
+              <img
+                src={pot1}
+                alt="home pic"
+                className="img-fluid"
+                style={{
+                  maxHeight: "450px",
+                  position: "absolute",
+                  top: 230,
+                  width: "auto",
+                  right: 10,
+                }}
+              />
+            </Col>
           </div>
         )}
-        <button onClick={() => handleViewPhotosClick("poertyone")}>
-          Read more
+        <button onClick={() => handleViewPhotosClick("poetryone")}>
+          {showPoetryOne ? "Close " : "Read more"}
         </button>
       </div>
+
       <div>
         <h3>ಶಾಯರಿ 2</h3>
-        {showPoertyTwo && (
+        {showPoetryTwo && (
           <div>
             <h3>
               ಸಂಬಂಧ ಇರುವುದು ಕೈಗೆ ಕೈ ತಾಕುವುದಕ್ಕೆ
@@ -113,51 +115,49 @@ const Hobbies = () => {
               <br />
             </h3>
             <Col md={5} style={{ paddingBottom: 20 }}>
-        <img
-          src={pot2}
-          alt="home pic"
-          className="img-fluid"
-          style={{ maxHeight: "450px",
-           }}
-        />
-      </Col>
+              <img
+                src={pot2}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "450px" }}
+              />
+            </Col>
           </div>
         )}
-        <button onClick={() => handleViewPhotosClick("poertytwo")}>
-          Read more
+        <button onClick={() => handleViewPhotosClick("poetrytwo")}>
+          {showPoetryTwo ? "Close " : "Read more"}
         </button>
       </div>
 
       <div>
         <h3>ಶಾಯರಿ 3</h3>
-        {showPoertyThree && (
+        {showPoetryThree && (
           <div>
             <h3>
               ಕನಸು ಒಂದು ಮಧುರ ಗಾನ, ನಾಗುತ ಹೋದಾಗ ಮಿಸುತೀರದ ಕಾನ.
               <br />
-              ಮೂಡು ಸಲ ನಗುವ ಸಿರಿ, ಕನಸು ನಮ್ಮ ಹೃದಯದ ಚಿರ.
+              ಮೂಡು ಸಲ ನಗು ಹೊತ್ತ ಸಿರಿ, ಕನಸು ನಮ್ಮ ಹೃದಯದ ಚಿರ.
               <br />
               ಮುಕ್ಕಾಲು ನಗು ಹೊತ್ತ ಕೈ, ಕನಸು ನಮ್ಮ ಮನಸ್ಸನು ಸೇರುವ ಕಡೆ.
             </h3>
             <Col md={5} style={{ paddingBottom: 20 }}>
-        <img
-          src={pot3}
-          alt="home pic"
-          className="img-fluid"
-          style={{ maxHeight: "450px",
-            }}
-        />
-      </Col>
+              <img
+                src={pot3}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "450px" }}
+              />
+            </Col>
           </div>
         )}
-        <button onClick={() => handleViewPhotosClick("poertythree")}>
-          Read more
+        <button onClick={() => handleViewPhotosClick("poetrythree")}>
+          {showPoetryThree ? "Close " : "Read more"}
         </button>
       </div>
 
       <div>
         <h3>ಶಾಯರಿ 4</h3>
-        {showPoertyFour && (
+        {showPoetryFour && (
           <div>
             <h3>
               ಕನಸು ಒಂದು ಮೂಡುಗೂಡಿ ನಗು, ರಂಗದಲ್ಲಿ ನಡೆಯುವ ನವರಸದ ನೆನಪು।
@@ -167,23 +167,23 @@ const Hobbies = () => {
               ಬೆಳಗಾದ ಸೂರ್ಯನ ಕಿರಣದಲ್ಲಿ, ಮನಸ್ಸಿಗೆ ಹೊಸ ಆಲೋಚನೆ ತರುವ ಕನಸು।
             </h3>
             <Col md={5} style={{ paddingBottom: 20 }}>
-        <img
-          src={pot4}
-          alt="home pic"
-          className="img-fluid"
-          style={{ maxHeight: "450px" }}
-        />
-      </Col>
+              <img
+                src={pot4}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "450px" }}
+              />
+            </Col>
           </div>
         )}
-        <button onClick={() => handleViewPhotosClick("poertyfour")}>
-          Read more
+        <button onClick={() => handleViewPhotosClick("poetryfour")}>
+          {showPoetryFour ? "Close " : "Read more"}
         </button>
       </div>
 
       <div>
         <h3>ಶಾಯರಿ 5</h3>
-        {showPoertyFive && (
+        {showPoetryFive && (
           <div>
             <h3>
               ಕನಸು ಕೊಡುವ ಕೆಲಸ ದಿನಗಳಲ್ಲಿ, ನಗು ಬರುವ ನಗರದ ಹಾದಿಯಲ್ಲಿ। <br />
@@ -191,17 +191,17 @@ const Hobbies = () => {
               ಕನಸು ನಮ್ಮ ಭವಿಷ್ಯವನು ನೋಡುವ ದಾರಿ, ನಗುಹೃದಯವನು ತುಂಬುವ ಆಶಾವನು।
             </h3>
             <Col md={5} style={{ paddingBottom: 20 }}>
-        <img
-          src={pot5}
-          alt="home pic"
-          className="img-fluid"
-          style={{ maxHeight: "450px" }}
-        />
-      </Col>
+              <img
+                src={pot5}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "450px" }}
+              />
+            </Col>
           </div>
         )}
-        <button onClick={() => handleViewPhotosClick("poertyfive")}>
-          Read more
+        <button onClick={() => handleViewPhotosClick("poetryfive")}>
+          {showPoetryFive ? "Close " : "Read more"}
         </button>
       </div>
     </div>
