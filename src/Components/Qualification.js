@@ -9,7 +9,7 @@ const Qualification = () => {
   return (
     <div>
       <br/>
-      <h1 className="full-stack">Full Stack Software Develpoer</h1><br/> 
+      <h1 className="full-stack">Full Stack Software Developer</h1><br/> 
       <div>
       <Col md={5} >
         <img
