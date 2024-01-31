@@ -64,10 +64,6 @@ const EducationPage = () => {
       alt="home pic"
       className="img-fluid"
       style={{ maxHeight: "450px",
-    //   position: 'absolute',
-    //   top: 440,
-    //   width:'350px',
-    //   left: 640,
      }}
     />
     </Col>
@@ -76,11 +72,7 @@ const EducationPage = () => {
       src={betwo}
       alt="home pic"
       className="img-fluid"
-      style={{ maxHeight: "450px",
-    //   position: 'absolute',
-    //   top: 440,
-    //   width:'500px',
-    //   right: 340,  
+      style={{ maxHeight: "450px", 
     }}
     />
     </Col>
