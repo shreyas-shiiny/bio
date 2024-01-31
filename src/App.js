@@ -1,24 +1,52 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import PersonalDetailsPage from "./Components/PersonalDetailsPage";
+import EducationPage from "./Components/EducationPage";
+import HomePage from "./Components/HomePage";
+import "./App.css";
+import Qualification from "./Components/Qualification";
+import Hobbies from "./Components/Hobbies";
 
 function App() {
+  const [currentPage, setCurrentPage] = useState("home");
+
+  const renderPage = () => {
+    switch (currentPage) {
+      case "home":
+        return <HomePage />;
+      case "personal-details":
+        return <PersonalDetailsPage />;
+      case "education":
+        return <EducationPage />;
+      case "qualification":
+        return <Qualification />;
+      case "hobbies":
+        return <Hobbies />;
+      default:
+        return null;
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <header>
+          <h1>Shreyas Profile</h1>
+        </header>
+        <nav>
+          <button onClick={() => setCurrentPage("home")}>Home</button>
+          <button onClick={() => setCurrentPage("personal-details")}>
+            Personal Details
+          </button>
+          <button onClick={() => setCurrentPage("education")}>Education</button>
+          <button onClick={() => setCurrentPage("qualification")}>
+            Qualification
+          </button>
+          <button onClick={() => setCurrentPage("hobbies")}>Hobbies</button>
+        </nav>
+
+        <main>{renderPage()}</main>
+      </div>
+    </>
   );
 }
 
