@@ -35,8 +35,8 @@ const PersonalDetailsPage = () => {
           style={{  maxHeight: '550px',
           position: 'absolute',
           top: 170,
-          left:980,
-          right: 0, }}
+          left:555,
+          right: 0 }}
         />
       </Col>
     </div>
