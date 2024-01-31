@@ -24,7 +24,7 @@ const HomePage = () => {
 
       <h1 className="heading-name">
         I'm
-        <strong className="main-name"> shreyas(ಶ್ರೇಯಸ್) </strong>
+        <strong className="main-name"> Shreyas(ಶ್ರೇಯಸ್) </strong>
       </h1>
 
       <div style={{ padding: 50, textAlign: "left",color:"#103ac7bb" }}>
