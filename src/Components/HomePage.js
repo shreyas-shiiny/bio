@@ -34,9 +34,6 @@ const HomePage = () => {
       
       <Col md={12} className="home-about-social">
             <h1>CONTACT ME </h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
             <div itemscope itemtype="https://schema.org/LocalBusiness">
                 Phone Number : <span itemprop="telephone"><a href="tel:+916303099433">
                 +91 7022238553</a></span>
