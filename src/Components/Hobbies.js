@@ -156,11 +156,7 @@ const Hobbies = () => {
         {showPoetryThree && (
           <div>
             <h3>
-              ಕನಸು ಒಂದು ಮಧುರ ಗಾನ, ನಾಗುತ ಹೋದಾಗ ಮಿಸುತೀರದ ಕಾನ.
-              <br />
-              ಮೂಡು ಸಲ ನಗು ಹೊತ್ತ ಸಿರಿ, ಕನಸು ನಮ್ಮ ಹೃದಯದ ಚಿರ.
-              <br />
-              ಮುಕ್ಕಾಲು ನಗು ಹೊತ್ತ ಕೈ, ಕನಸು ನಮ್ಮ ಮನಸ್ಸನು ಸೇರುವ ಕಡೆ.
+              loading..
             </h3>
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
@@ -182,11 +178,7 @@ const Hobbies = () => {
         {showPoetryFour && (
           <div>
             <h3>
-              ಕನಸು ಒಂದು ಮೂಡುಗೂಡಿ ನಗು, ರಂಗದಲ್ಲಿ ನಡೆಯುವ ನವರಸದ ನೆನಪು।
-              <br />
-              ಮುಕ್ಕಾಲು ಹೊತ್ತ ಹೃದಯದಲ್ಲಿ, ಕನಸು ನಾಟುತ್ತಿದೆ ಆಶಾವನು।
-              <br />
-              ಬೆಳಗಾದ ಸೂರ್ಯನ ಕಿರಣದಲ್ಲಿ, ಮನಸ್ಸಿಗೆ ಹೊಸ ಆಲೋಚನೆ ತರುವ ಕನಸು।
+            loading..
             </h3>
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
@@ -208,9 +200,7 @@ const Hobbies = () => {
         {showPoetryFive && (
           <div>
             <h3>
-              ಕನಸು ಕೊಡುವ ಕೆಲಸ ದಿನಗಳಲ್ಲಿ, ನಗು ಬರುವ ನಗರದ ಹಾದಿಯಲ್ಲಿ। <br />
-              ಬಾಲೆಯ ಕಣ್ಣಿಗೆ ಕನಸು ಕೊಟ್ಟಿದೆ, ಅದು ಹೃದಯದಲ್ಲಿ ಹುಟ್ಟಿದೆ। <br />
-              ಕನಸು ನಮ್ಮ ಭವಿಷ್ಯವನು ನೋಡುವ ದಾರಿ, ನಗುಹೃದಯವನು ತುಂಬುವ ಆಶಾವನು।
+            loading..
             </h3>
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
@@ -231,7 +221,7 @@ const Hobbies = () => {
         <h3>ಶಾಯರಿ 6</h3>
         {showPoetrySix && (
           <div>
-            <h3>loading...</h3>
+            <h3>loading..</h3>
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={pot6}
@@ -251,7 +241,7 @@ const Hobbies = () => {
         <h3>ಶಾಯರಿ 7</h3>
         {showPoetrySeven && (
           <div>
-            <h3>loading...</h3>
+            <h3>loading..</h3>
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={pot7}
@@ -271,7 +261,7 @@ const Hobbies = () => {
         <h3>ಶಾಯರಿ 8</h3>
         {showPoetryEight && (
           <div>
-            <h3>loading...</h3>
+            <h3>loading..</h3>
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={pot8}
@@ -293,7 +283,7 @@ const Hobbies = () => {
         <h3>ಶಾಯರಿ 9</h3>
         {showPoetryNine && (
           <div>
-            <h3>loading...</h3>
+            <h3>loading..</h3>
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={pot9}
