@@ -60,14 +60,19 @@ const Hobbies = () => {
     <div>
       <h1>I have a hidden talent for writing ಕನ್ನಡ ಶಾಯರಿ</h1>
     <br/><br/><br/>
-<h3> please wait ಶಾಯರಿ 1,6,7,8 will be updated soon  </h3>
+<h3> please wait ಶಾಯರಿ 6,7,8 will be updated soon  </h3>
     <h3> Thank-you</h3>
       <div>
         <h3>ಶಾಯರಿ 1</h3>
         {showPoetryOne && (
           <div>
             <h3>
-             no1 is always best wait is always worth
+            ಬಂದರು ಕೂಡ ರಾವಣ ನಿನ್ನ ಹತ್ತಿರ <br/>
+ನನ್ನ ಬಳಿ ಇದೆ ಶಕ್ತಿ ಹನುಮಂತನ ತರ<br/>
+ನಿನ್ನನ್ನು ಹೊತ್ತುಕೊಂಡು ತಿರುಗಾಡುವೆ ಲೇಪಾಕ್ಷಿ ಪಕ್ಷಿ ತರ<br/>
+ನಾನು ನಿನ್ನನ್ನು ಪ್ರೀತಿಸುವೆ, ಕಾಪಾಡುವೆ ಶ್ರೀರಾಮನ ತರ <br/>
+ಇರಬೇಕು ನಂಬಿಕೆ ನಿನ್ನಲ್ಲಿ ಸೀತೆಯ ತರ<br/>
+ಅವಾಗ ನಮ್ಮ ಜೀವನ ಆಗುವುದು ಹಾಲು ಜೇನು ತರ
             </h3>
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
