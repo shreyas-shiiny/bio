@@ -84,7 +84,7 @@ const Hobbies = () => {
           </div>
         )}
         <button onClick={() => handleViewPhotosClick("poetryone")}>
-          {showPoetryOne ? "Close " : "Read more"}
+          {showPoetryOne ? "Read-less " : "Read more"}
         </button>
       </div>
 
@@ -121,7 +121,7 @@ const Hobbies = () => {
           </div>
         )}
         <button onClick={() => handleViewPhotosClick("poetrytwo")}>
-          {showPoetryTwo ? "Close " : "Read more"}
+          {showPoetryTwo ? "Read-less  " : "Read more"}
         </button>
       </div>
 
@@ -151,7 +151,7 @@ const Hobbies = () => {
           </div>
         )}
         <button onClick={() => handleViewPhotosClick("poetrythree")}>
-          {showPoetryThree ? "Close " : "Read more"}
+          {showPoetryThree ? "Read-less  " : "Read more"}
         </button>
       </div>
 
@@ -180,7 +180,7 @@ const Hobbies = () => {
           </div>
         )}
         <button onClick={() => handleViewPhotosClick("poetryfour")}>
-          {showPoetryFour ? "Close " : "Read more"}
+          {showPoetryFour ? "Read-less  " : "Read more"}
         </button>
       </div>
 
@@ -211,7 +211,7 @@ const Hobbies = () => {
           </div>
         )}
         <button onClick={() => handleViewPhotosClick("poetryfive")}>
-          {showPoetryFive ? "Close " : "Read more"}
+          {showPoetryFive ? "Read-less  " : "Read more"}
         </button>
       </div>
 
@@ -231,7 +231,7 @@ const Hobbies = () => {
           </div>
         )}
         <button onClick={() => handleViewPhotosClick("poetrysix")}>
-          {showPoetrySix ? "Close " : "Read more"}
+          {showPoetrySix ? "Read-less  " : "Read more"}
         </button>
       </div>
 
@@ -251,7 +251,7 @@ const Hobbies = () => {
           </div>
         )}
         <button onClick={() => handleViewPhotosClick("poetryseven")}>
-          {showPoetrySeven ? "Close " : "Read more"}
+          {showPoetrySeven ? "Read-less  " : "Read more"}
         </button>
       </div>
 
@@ -271,7 +271,7 @@ const Hobbies = () => {
           </div>
         )}
         <button onClick={() => handleViewPhotosClick("poetryeight")}>
-          {showPoetryEight ? "Close " : "Read more"}
+          {showPoetryEight ? "Read-less  " : "Read more"}
         </button>
       </div>
 
@@ -307,7 +307,7 @@ const Hobbies = () => {
           </div>
         )}
         <button onClick={() => handleViewPhotosClick("poetrynine")}>
-          {showPoetryNine ? "Close " : "Read more"}
+          {showPoetryNine ? "Read-less  " : "Read more"}
         </button>
       </div>
 
