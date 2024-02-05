@@ -219,7 +219,7 @@ const Hobbies = () => {
         <h3>ಶಾಯರಿ 6</h3>
         {showPoetrySix && (
           <div>
-            <h3>loading..</h3>
+            <h3>Coming Soon..</h3>
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={pot6}
@@ -239,7 +239,7 @@ const Hobbies = () => {
         <h3>ಶಾಯರಿ 7</h3>
         {showPoetrySeven && (
           <div>
-            <h3>loading..</h3>
+            <h3>Coming Soon..</h3>
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={pot7}
@@ -259,7 +259,7 @@ const Hobbies = () => {
         <h3>ಶಾಯರಿ 8</h3>
         {showPoetryEight && (
           <div>
-            <h3>loading..</h3>
+            <h3>Coming Soon..</h3>
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={pot8}
