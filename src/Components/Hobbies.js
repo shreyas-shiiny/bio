@@ -60,7 +60,7 @@ const Hobbies = () => {
     <div>
       <h1>I have a hidden talent for writing ಕನ್ನಡ ಶಾಯರಿ</h1>
     <br/><br/>
-<h3>{ Caution:please wait ಶಾಯರಿ 7 and 8 will be updated ASAP } </h3>
+<h3>{" Caution:please wait ಶಾಯರಿ 7 and 8 will be updated ASAP "} </h3>
     <h3> Thank-you</h3>
       <div>
         <h3>ಶಾಯರಿ 1</h3>
