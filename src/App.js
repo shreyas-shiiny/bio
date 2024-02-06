@@ -39,7 +39,7 @@ function App() {
           </button>
           <button onClick={() => setCurrentPage("education")}>Education</button>
           <button onClick={() => setCurrentPage("qualification")}>
-            Qualification
+           Job Qualification
           </button>
           <button onClick={() => setCurrentPage("hobbies")}>Hobbies</button>
         </nav>
