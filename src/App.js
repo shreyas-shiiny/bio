@@ -33,7 +33,7 @@ function App() {
           <h1>Shreyas Profile</h1>
         </header>
         <nav>
-          <button onClick={() => setCurrentPage("home")}>Intro</button>
+          <button onClick={() => setCurrentPage("home")}>Introduction</button>
           <button onClick={() => setCurrentPage("personal-details")}>
             Personal Details
           </button>
