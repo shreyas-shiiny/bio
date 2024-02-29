@@ -18,7 +18,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(238, 210, 161);
-  box-sizing: border-box;
 }
 
 header {
@@ -27,14 +26,6 @@ header {
   text-align: center;
   padding: 20px;
 }
-
-footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-
 
 nav {
   display: flex;
@@ -53,10 +44,9 @@ button {
 
 main {
   margin: 20px;
-  padding: 20px;
 }
 
-.heading {
+.heading, .heading-name {
   font-size: 2.4em !important;
   padding-left: 50px !important;
 }
@@ -81,9 +71,8 @@ main {
   color: rgb(44, 31, 14);
 }
 
-
-@media (max-width: 600px) {
-            header, footer {
-                font-size: 14px;
-            }
-        }
+@media only screen and (max-width: 600px) {
+  .heading, .heading-name {
+    padding-left: 0 !important;
+  }
+}
