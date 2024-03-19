@@ -28,7 +28,11 @@ const Qualification = () => {
           src={qua1}
           alt="home pic"
           className="img-fluid"
-         
+         style={{maxHeight: "600px",
+          position: 'absolute',
+          width: '500px',
+          left:530,
+          top: 330,}}
         />
       </Col>
 
