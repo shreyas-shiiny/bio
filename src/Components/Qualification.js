@@ -32,7 +32,7 @@ const Qualification = () => {
           position: 'absolute',
           width: '500px',
           left:530,
-          }}
+          top: 330,}}
         />
       </Col>
 
