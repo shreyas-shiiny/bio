@@ -16,8 +16,7 @@ const Qualification = () => {
           src={qua2}
           alt="home pic"
           className="img-fluid"
-          style={{ 
-        }}
+          
         />
       </Col>
       <Col md={5} style={{ paddingBottom: 20 }}>
@@ -25,7 +24,7 @@ const Qualification = () => {
           src={qua1}
           alt="home pic"
           className="img-fluid"
-          style={{  }}
+         
         />
       </Col>
 
@@ -34,7 +33,7 @@ const Qualification = () => {
           src={qua3}
           alt="home pic"
           className="img-fluid"
-          style={{ , }}
+          
         />
       </Col>
       
