@@ -1,78 +1,85 @@
+/* Default styles */
 html {
-    --section-background-color: linear-gradient(
-      to bottom left,
-      #9a5fe8,
-      #9a5fe8
-    );
-  
-    --image-gradient: linear-gradient(
-      to bottom left,
-      #9a5fe8,
-      #9a5fe8
-    );
-  
+    --section-background-color: linear-gradient(to bottom left, #9a5fe8, #9a5fe8);
+    --image-gradient: linear-gradient(to bottom left, #9a5fe8, #9a5fe8);
     --imp-text-color: pink;
-  }
+}
+
 body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: rgb(238, 210, 161);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(238, 210, 161);
 }
 
 header {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 nav {
-  display: flex;
-  justify-content: center;
-  margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
 }
 
 button {
-  margin: 0 10px;
-  padding: 10px;
-  background-color: #555;
-  color: white;
-  border: none;
-  cursor: pointer;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 main {
-  margin: 20px;
+    margin: 20px;
 }
 
 .heading, .heading-name {
-  font-size: 2.4em !important;
-  padding-left: 50px !important;
+    font-size: 2.4em !important;
+    padding-left: 50px !important;
 }
 
 .heading-name {
-  font-size: 2.5em !important;
-  padding-left: 45px !important;
+    font-size: 2.5em !important;
+    padding-left: 45px !important;
 }
 
 .main-name {
-  color: #5a5c05;
+    color: #5a5c05;
 }
 
 .home-about-social {
-  text-align: center !important;
-  padding-top: 25px;
-  color: rgb(133, 70, 70) !important;
+    text-align: center !important;
+    padding-top: 25px;
+    color: rgb(133, 70, 70) !important;
 }
 
-.full-stack{
-  text-align: center;
-  color: rgb(44, 31, 14);
+.full-stack {
+    text-align: center;
+    color: rgb(44, 31, 14);
 }
 
 @media only screen and (max-width: 600px) {
-  .heading, .heading-name {
-    padding-left: 0 !important;
-  }
+    .heading, .heading-name {
+        padding-left: 0 !important;
+        font-size: 2em !important; 
+    }
+    .heading-name {
+        font-size: 2.1em !important; 
+    }
+}
+@media only screen and (min-width: 768px) {
+    /* Styles for tablets */
+}
+
+@media only screen and (min-width: 992px) {
+    /* Styles for laptops and desktops */
+}
+
+@media only screen and (min-width: 1200px) {
+    /* Styles for larger screens */
 }
