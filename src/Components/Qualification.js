@@ -32,7 +32,7 @@ const Qualification = () => {
           position: 'absolute',
           width: '500px',
           left:530,
-          top: 330,}}
+          }}
         />
       </Col>
 
@@ -41,7 +41,12 @@ const Qualification = () => {
           src={qua3}
           alt="home pic"
           className="img-fluid"
-          
+          style={{maxHeight: '1050px',
+            position: 'absolute',
+          top: 330,
+          left:1050,
+          width: '265px',
+          right: 0 , }}
         />
       </Col>
       
