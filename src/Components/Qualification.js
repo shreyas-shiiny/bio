@@ -16,11 +16,7 @@ const Qualification = () => {
           src={qua2}
           alt="home pic"
           className="img-fluid"
-          style={{ maxHeight: "266px" ,
-          position: 'absolute',
-          top: 330,
-          left:10,
-          right: 100,
+          style={{ 
         }}
         />
       </Col>
@@ -29,11 +25,7 @@ const Qualification = () => {
           src={qua1}
           alt="home pic"
           className="img-fluid"
-          style={{ maxHeight: "600px",
-          position: 'absolute',
-          width: '500px',
-          left:530,
-          top: 330, }}
+          style={{  }}
         />
       </Col>
 
@@ -42,12 +34,7 @@ const Qualification = () => {
           src={qua3}
           alt="home pic"
           className="img-fluid"
-          style={{ maxHeight: '1050px',
-            position: 'absolute',
-          top: 330,
-          left:1050,
-          width: '265px',
-          right: 0, }}
+          style={{ , }}
         />
       </Col>
       
